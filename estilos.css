@@ -81,3 +81,9 @@ input[type="checkbox"] + label {
     font-size: 14px; /* Fuentes: Tamaño */
     cursor: pointer;
 }
+
+/* Selector de ID */
+#form-registro {
+    margin-top: 10px;
+}
+

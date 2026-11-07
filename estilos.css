@@ -1,0 +1,83 @@
+/* Estilo Generales - Se aplican al cuerpo de la página web*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*tipografía*/
+    background-color: #f1f5f9; /*Fondo gris claro para la pagina*/
+    margin: 0; /*Quita el margen del navegador*/
+    padding: 40px; /*Espacio alrededor del formulario */
+    color: #334155; /*Color gris oscuro para el texto*/
+}
+
+/* Estilo Contenedor principal del formulario*/
+.contenedor-formulario{
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    width: 80%; /* El formulario ocupa el 80% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Espacio interno*/
+    border: 2px solid #333333; /* Borde grueso oscuro */
+}
+
+/* Titulo principal */
+h1{
+    text-align: center; /* Centra el texto */
+    color: #000080; /* Azul marino clásico */
+    font-size: 22px; /* Tamaño normal */
+}
+
+/*Campos del formulario*/
+/* Etiquetas de texto (Nombre, Apellido) */
+label {
+    display: block; /* Hace que cada etiqueta ocupe su propia línea */
+    margin-top: 10px; /* Separación superior */
+    margin-bottom: 2px; /* Separación inferior */
+    color: #333333; /* Gris oscuro */
+    font-size: 14px; /* Tamaño de la fuente */
+}
+/* Cajas de texto, correo, contraseña y textarea */
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+textarea {
+    width: 90%; /* Ocupa todo el ancho disponible */
+    padding: 5px;
+    border: 1px solid #000000; /* Borde negro sencillo */
+    background-color: #f9f9f9; /* Fondo gris muy clarito */
+}
+
+/* Checkboxes y Fieldset */
+/*Leonardo Egea Rodríguez*/
+/* El marco que agrupa las opciones de intereses */
+fieldset {
+    border: 1px solid #94a3b8; /* Bordes: Marco gris */
+    margin-top: 15px;
+    padding: 10px;
+}
+
+/* El título dentro del marco (Selecciona tus intereses) */
+legend {
+    color: #000080; /* Azul marino */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Alineación de los checkboxes */
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+/* El texto de cada checkbox */
+input[type="checkbox"] + label {
+    display: inline;
+    margin-left: 5px;
+}
+
+/* Botón de envío */
+.boton-enviar {
+    background-color: #d3d3d3; /* Fondo gris */
+    color: black; /* Color: Texto blanco */
+    padding: 5px 15px; /* Espacio interno */
+    margin-top: 15px;
+    border: 1px solid #000000; /* Borde negro */
+    width: 100%;
+    font-size: 14px; /* Fuentes: Tamaño */
+    cursor: pointer;
+}
